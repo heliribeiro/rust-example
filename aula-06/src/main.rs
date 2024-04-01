@@ -12,6 +12,7 @@ fn main() {
         .parse()
         .expect("error when converting to number");
 
+
     for number in 0..=9 {
         let result = number * multi;
         println!("{number} x {multi} = {}", result);
